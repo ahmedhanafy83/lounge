@@ -1,0 +1,349 @@
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/ivOne"
+                    android:background="@drawable/ad2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="200dp"
+                    android:contentDescription="TODO"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1.5"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/tvOne"
+                        android:paddingLeft="20dp"
+                        android:text="GIGI HADID DOES THE COLLEST"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/tvTwo"
+                        android:layout_marginTop="25dp"
+                        android:text="edfjkhdfjhsdfhjkjkljkjfvjhsjdfjvkjjvnjfdjshjddsfjhdskjfhfdjkshjsdgasgsagsadgusagda ashgsaghasd asjhfgjhgjasf safkjsafjgsaf"
+                        android:textSize="15sp"
+                        android:padding="5dp"
+                        android:textColor="@color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <LinearLayout
+                        android:id="@+id/linear_Social"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="right"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/btnTwitter"
+                            android:layout_width="15dp"
+                            android:background="@drawable/twitter"
+                            android:layout_marginLeft="5dp"
+                            android:layout_height="15dp" />
+                        <ImageView
+                            android:id="@+id/btnFace"
+                            android:layout_width="15dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/facebook"
+                            android:layout_height="15dp" />
+                        <ImageView
+                            android:id="@+id/btnLinked"
+                            android:layout_width="15dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/linked"
+                            android:layout_height="15dp" />
+                        <ImageView
+                            android:id="@+id/btnInsta"
+                            android:layout_width="15dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/insta"
+                            android:layout_height="15dp" />
+                        <ImageView
+                            android:id="@+id/btnGplus"
+                            android:layout_width="15dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/gplus"
+                            android:layout_height="15dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:background="@color/red"
+                android:layout_width="70dp"
+                android:layout_height="2dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:text="sahdgsadhdfshgfahgafhgafhghjgghasdhgsad"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:id="@+id/linear_Social2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/btnTwitter2"
+                    android:layout_width="15dp"
+                    android:background="@drawable/twitter"
+                    android:layout_marginLeft="5dp"
+                    android:layout_height="15dp" />
+                <ImageView
+                    android:id="@+id/btnFace2"
+                    android:layout_width="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/facebook"
+                    android:layout_height="15dp" />
+                <ImageView
+                    android:id="@+id/btnLinked2"
+                    android:layout_width="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/linked"
+                    android:layout_height="15dp" />
+                <ImageView
+                    android:id="@+id/btnInsta2"
+                    android:layout_width="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/insta"
+                    android:layout_height="15dp" />
+                <ImageView
+                    android:id="@+id/btnGplus2"
+                    android:layout_width="15dp"                   android:layout_marginLeft="5dp"
+                    android:background="@drawable/gplus"
+                    android:layout_height="15dp" />
+            </LinearLayout>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@color/red"
+                android:layout_width="350dp"
+                android:layout_height="2dp" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+
+
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/ok" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="sjdsjdghjhsgdagsadghjhfhjffhjhgjh"
+                        android:textColor="@color/red"
+                        android:textSize="10dp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/okok" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="sjdsjdghjhsgdagsadghjhfhjffhjhgjh"
+                        android:textColor="@color/red"
+                        android:textSize="10dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/ok" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="sjdsjdghjhsgdagsadghjhfhjffhjhgjh"
+                        android:textColor="@color/red"
+                        android:textSize="10dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/okok" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="sjdsjdghjhsgdagsadghjhfhjffhjhgjh"
+                        android:textColor="@color/red"
+                        android:textSize="10dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/ok" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="sjdsjdghjhsgdagsadghjhfhjffhjhgjh"
+                        android:textColor="@color/red"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@color/red"
+            android:layout_width="350dp"
+            android:layout_height="2dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="200dp"
+                android:layout_height="match_parent">
+                <TextView
+
+                    android:paddingLeft="20dp"
+                    android:text="GIGI HADID DOES THE COLLEST"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" />
+                <TextView
+
+                    android:layout_marginTop="25dp"
+                    android:text="edfjkhdfjhsdfhfdjshjddsfjhdskjfhfdjkshjsdgasgsagsadgusagda ashgsaghasd asjhfgjhgjasf safkjsafjgsaf"
+                    android:textSize="18sp"
+                    android:padding="5dp"
+                    android:textColor="@color/black"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <LinearLayout
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:background="@drawable/twitter"
+                        android:layout_marginLeft="5dp"
+                        android:layout_height="15dp" />
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/facebook"
+                        android:layout_height="15dp" />
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/linked"
+                        android:layout_height="15dp" />
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/insta"
+                        android:layout_height="15dp" />
+                    <ImageView
+                        android:layout_width="15dp"                   android:layout_marginLeft="5dp"
+                        android:background="@drawable/gplus"
+                        android:layout_height="15dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/okok"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

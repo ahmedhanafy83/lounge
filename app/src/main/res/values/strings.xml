@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">lounge</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="our_story">Lounge Mag is currently one of the prominent  pan-Arab English Social Magazines. Established  by Karim Nakhle in Lebanon in 2001, it quickly became the leading English lifestyle Fashion and Social Magazine; In 2004,Lounge Mag Egypt’s first edition was lunches as the Innovative trends-setting magazine ( a partnership and franchiser of Lounge Mag International to Chrisma Group), which is currently a tap publication in Egypt in its category.</string>
+    <string name="action_settings">Settings</string>
+    <string name="about_us">Lounge Mage M.E (Middle East Edition) is launching its Avant-Garde Trend-Setting Digital Online
+
+Magazine, spreading the finest and most sophisticated fashion and lifestyle throughout the region, extending from Beirut to Dubai, Cairo to Amman, and Kuwait to KS A.
+With  over 17 years of experience in refreshing readers’ trends and taste, Lounge Mag M.E ensures an exclusive peek into the life of the celebrities, the world of fashion, the Designers, Influences and Bloggers, the Elite and Jetsetters, the night crawlers, the what to wear or latest craze for your hair, the beauty tips from eyes to lips, the perfect holiday destination, the clubbing and lifestyle scene, and everything in between. And all this, soon, coming to your screen…..</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
