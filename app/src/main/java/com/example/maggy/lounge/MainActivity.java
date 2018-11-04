@@ -142,6 +142,12 @@ public class MainActivity extends AppCompatActivity
                 startActivity(b);
 
                 break;
+            case R.id.cart:
+                Intent c = new Intent(getApplicationContext(), Payment.class);
+                startActivity(c);
+
+                break;
+
 
         }
 

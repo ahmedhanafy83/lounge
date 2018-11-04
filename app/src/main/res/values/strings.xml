@@ -14,4 +14,26 @@ With  over 17 years of experience in refreshing readers’ trends and taste, Lou
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="city_array">
+        <item>Select City</item>
+        <item>Cairo</item>
+        <item>Alexandria</item>
+    </string-array>
+
+    <string-array name="empty_array">
+        <item>Select Area</item>
+
+    </string-array>
+
+    <string-array name="cairo_array">
+        <item>Select Area</item>
+        <item>Ghamra</item>
+        <item>Nasr City</item>
+    </string-array>
+
+    <string-array name="alex_array">
+        <item>Select Area</item>
+        <item>Sedi Ghaber</item>
+        <item>Khaled Ibn Al-waleed</item>
+    </string-array>
 </resources>

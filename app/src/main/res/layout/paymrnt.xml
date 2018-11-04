@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Payment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" total"
+        android:textStyle="bold"
+        android:textColor="#a91414"
+        android:textSize="30sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text=" 2911.70"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Way To Payment:"
+            android:textStyle="bold"
+            android:textColor="#a91414"
+            android:textSize="20dp"
+            android:layout_margin="5dp"
+           />
+
+        <RadioGroup
+
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <RadioButton
+                android:id="@+id/cash"
+                android:text="Cash On Delivery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/visa"
+                android:text="Using Visa Card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/visaNum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Card Number"
+            android:visibility="invisible"
+            android:inputType="number"
+
+            android:layout_margin="5dp"/>
+
+        <EditText
+            android:id="@+id/visaPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Card Number"
+            android:visibility="invisible"
+            android:inputType="number"
+            android:layout_margin="5dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/order"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#a91414"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:onClick="comblete"
+            android:text="comblete your order "/>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

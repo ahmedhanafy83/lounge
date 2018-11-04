@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context=".Conferm">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="  your order:"
+    android:textSize="16sp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:background="#d6d1d1">
+    <TextView
+        android:id="@+id/order_Textview1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text=" Items total "
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order_Textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 2911.70"
+        android:textSize="15sp"/>
+
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#d6d1d1">
+    <TextView
+        android:id="@+id/order_Textview3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text=" Shiping Fee "
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order_Textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 300"
+        android:textSize="15sp"/>
+
+
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#d6d1d1">
+    <TextView
+        android:id="@+id/order_Textview5"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text=" Total "
+        android:textSize="20sp"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/order_Textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 3211.70"
+        android:textSize="15sp"/>
+
+
+
+</LinearLayout>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="  your adress:"
+    android:textSize="16sp"/>
+
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="4"
+    android:orientation="horizontal"
+    android:background="#d6d1d1">
+
+    <TextView
+        android:id="@+id/order_Textview7"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        android:text="  Ebrahem yousef
+  Nasr city
+  B 12
+  +201025708684
+"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="go_change"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:text=" Change "
+         />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:background="#d6d1d1">
+
+        <TextView
+            android:id="@+id/order_Textview8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" The Order will deliver between 3 and 4 days "
+            android:textStyle="italic"
+            android:textColor="#000"
+            android:textSize="20sp"
+            />
+
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#a91414"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:onClick="confirm"
+        android:text="confirm"
+        />
+
+
+</LinearLayout>

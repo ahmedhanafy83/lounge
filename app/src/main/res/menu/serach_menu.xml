@@ -3,6 +3,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
+        android:id="@+id/cart"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        android:title="items" />
+    <item
         android:id="@+id/items"
         app:showAsAction="always"
         android:icon="@drawable/ic_remove_red_eye_black_24dp"
